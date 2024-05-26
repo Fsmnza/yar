@@ -1,0 +1,11 @@
+route:
+  receiver: 'default'
+
+receivers:
+  - name: 'default'
+    email_configs:
+      - to: 'rfsmnd@gmail.com'
+        from: 'reluckyhs@gmail.com'
+        smarthost: smtp.example.com:587
+        auth_username: 'fsmnza'
+        auth_password: 'malik'
